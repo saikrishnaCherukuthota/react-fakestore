@@ -1,19 +1,7 @@
 # 🛍️ FakeStore - React E-commerce Website
 
 This is a simple e-commerce store built using **React** and **Redux**, fetching product data from the [Fake Store API](https://fakestoreapi.com/products). Users can browse products, view product details, add items to the cart, and proceed to checkout.
-# Note:
-## Create a Google Client ID:
-### ( you can ignore it too but then Google authentication login will not work.)
 
-1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
-2. If you don’t have a project, create a new one by clicking on the **New Project** button.
-3. Once your project is created, navigate to **APIs & Services > Credentials**.
-4. Under the **Credentials** section, click on **Create Credentials** and select **OAuth 2.0 Client IDs**.
-5. You'll need to configure the **OAuth consent screen** first, if you haven't already. You can just fill in the basic information like the app name, email, and developer contact info.
-6. For the **Application type**, select **Web application**.
-7. Under **Authorized JavaScript origins**, add your app's URL (e.g., `http://localhost:3000` for local development).
-8. Under **Authorized redirect URIs**, add your app’s redirect URL. For local development, this is usually something like `http://localhost:3000`.
-9. After this, you’ll be given a **Client ID** (and Client Secret, but you typically only need the **Client ID** for the front-end).
 
 ## Update .env File:
 
